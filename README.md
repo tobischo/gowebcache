@@ -6,6 +6,8 @@ Redis is required to store the data which is assumed to run on the default port 
 
 You can pipe data to curl using ```@-```.
 Note that you should use ```--data-binary``` instead of ```--data```/```-d``` if you want to post binary data.
+It currently accepts 2048 bytes.
+
 
 ```
 echo 'data' | curl --data-binary @- http://your_host

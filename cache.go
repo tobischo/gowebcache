@@ -4,12 +4,13 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 	"fmt"
-	"github.com/hoisie/redis"
 	"html/template"
 	"io/ioutil"
 	"net/http"
 	"regexp"
 	"strconv"
+
+	"github.com/hoisie/redis"
 )
 
 var client redis.Client
